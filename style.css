@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Arimo", sans-serif;
+  }
+
+.back{
+    background: #00050aee ;
+    width:100%;
+    height: 500px;
+    display: flex;
+    gap: 100px;
+}
+
+.p{
+    color: gray;
+}
+
+.h3{
+    color: aliceblue;
+    font-size: 26px;
+}
+
+
+.logo-l{
+    display: flex;
+    flex-direction: column ;
+    gap:70px;
+    transform: translateX(200px) translateY(100px) ;
+}
+
+.img11{
+   width: 45px;
+   height:45px;
+   background-color: rgba(255, 255, 255, 0.17) ;
+border-radius: 50%;
+padding: 9px;
+
+}
+
+.a1{
+    display: flex;
+    gap: 5px;
+}
+
+
+.h3-1{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+.text-c1{
+    color: gray;
+    transform: translateX(400px) translateY(100px) ;
+    line-height: 30px;
+}
+
+
+
+.input{
+    transform: translateY(150px) translateX(500px) ;
+}
+
+.input1{
+    width: 250px;
+    height: 40px;
+    background: rgba(128, 128, 128, 0.657);
+    border-radius: 13px;
+}
+
+.input2{
+    width: 50px;
+    height: 37px;
+    transform: translateX(-55px) translateY(1px) ;
+    border: none;
+    background: rgba(128, 128, 128, 0.657);
+    border-radius: 13px;
+}
+
+.h3-2{
+    color: aliceblue;
+    font-size: 20px;
+    transform: translateY(100px) translateX(500px) ;
+}
+
+
+.send{
+    transform: translateX(-95px) translateY(7px) ;
+}
